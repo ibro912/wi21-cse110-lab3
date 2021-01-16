@@ -104,6 +104,15 @@
             <br>
 
             <h1>Some form stuff</h1>
+
+            <datalist id="sport">
+                <option value="Basketball">
+                <option value="Baseball">
+                <option value="Soccer">
+                <option value="FootBall">
+                <option value="Tennis">
+                <option value="Golf">
+            </datalist>      
             <form action="" method="get" class="form-example">
                 <div class="form-example">
                     <label for="name">Enter your name here:</label>
@@ -138,16 +147,7 @@
                 </div>
                 <div>
                     <label for="sport">Choose a sport</label>
-                    <input list="sport" id="sport" name="sport">
-
-                    <datalist id="sport">
-                        <option value="Basketball">
-                        <option value="Baseball">
-                        <option value="Soccer">
-                        <option value="FootBall">
-                        <option value="Tennis">
-                        <option value="Golf">
-                    </datalist>
+                    <input list="sport" id="sport" name="sport"/>
                 </div>
                 <div>
                     <label for="story">Tell a story:</label>
@@ -155,8 +155,6 @@
                         Enter text here...
                     </textarea>
                 </div>
-                
-
                 <div class="form-example">
                     <input type="submit" value="Enter">
                 </div>
@@ -168,11 +166,11 @@
                     <label for="blue">Blue</label><br>
 
                     <input type="radio" id="red" name="color">
-                    <label for="blue">Blue</label><br>
+                    <label for="red">Red</label><br>
 
 
                     <input type="radio" id="Yellow" name="color">
-                    <label for="blue">Blue</label><br>
+                    <label for="yellow">yellow</label><br>
 
                 </fieldset>
             </form>
