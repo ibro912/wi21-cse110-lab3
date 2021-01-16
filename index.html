@@ -78,28 +78,124 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13274.070877606999!2d-117.77250849999999!3d33.721426349999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1610759419873!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
             </iframe>
 
-            Here is an audio example
+            <p>Here is an audio example</p>
             <figure>
                 <figcaption>Listen to this audio file</figcaption>
                 <audio controls src="https://soundbible.com//mp3/Dog%20Woof-SoundBible.com-457935112.mp3"></audio>
             </figure>
 
-            Here is a video example
+            <p>Here is a video example</p>
             <video controls width="200">
                 <source src = "https://dafftube.org/video-links/#fvp_Sample_1280x720_mp4" type="video/mp4">
             </video>
 
-            Here is a canvas
+            <p>Here is a canvas</p>
             <canvas width="300" height="300" style="border:1px solid #000000;">
                 Blank canvas
             </canvas>
 
-            An svg 
+            <p>An svg</p> 
             <svg viewBox = "0 0 300 100" stroke="red" fill="grey">
                 <circle cx ="50" cy="50" r="40" />
                 <circle cx ="120" cy="20" r="4" />
 
             </svg>
+
+            <br>
+
+            <h1>Some form stuff</h1>
+            <form action="" method="get" class="form-example">
+                <div class="form-example">
+                    <label for="name">Enter your name here:</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div class="form-example">
+                    <label for="date">Enter today's date</label>
+                    <input type="date" name="today's date" id="today">
+                </div>
+                <div>
+                    <input type="checkbox" id="I understand" name="I understand">
+                    <label for="checkbox">Please check this box</label  >
+                </div>
+                <div>
+                    <label for="anyColor">Choose a color:</label>
+                    <input type="color" id="anyColor" name="anyColor">
+                </div>
+                <div>
+                    <input class="RandomButton" type="button" value="press here for nothing">
+                </div>
+                <div>
+                    <label for="favNumber">Enter your favorite number</label>
+                    <input type="number" id="favNumber" name="favorite number">
+                </div>
+                <div>
+                    <label for="password">Enter text, will not be shown(like a password)</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div>
+                    <label for="feeling">How full do you want to make this?</label>
+                    <input type="range" id="feeling" name="feeling" min="0" max="10">
+                </div>
+                <div>
+                    <label for="sport">Choose a sport</label>
+                    <input list="sport" id="sport" name="sport">
+
+                    <datalist id="sport">
+                        <option value="Basketball">
+                        <option value="Baseball">
+                        <option value="Soccer">
+                        <option value="FootBall">
+                        <option value="Tennis">
+                        <option value="Golf">
+                    </datalist>
+                </div>
+                <div>
+                    <label for="story">Tell a story:</label>
+                    <textarea id="story" name="story">
+                        Enter text here...
+                    </textarea>
+                </div>
+                
+
+                <div class="form-example">
+                    <input type="submit" value="Enter">
+                </div>
+
+                <fieldset>
+                    <legend>Choose your favorite color of these three</legend>
+
+                    <input type="radio" id="blue" name="color">
+                    <label for="blue">Blue</label><br>
+
+                    <input type="radio" id="red" name="color">
+                    <label for="blue">Blue</label><br>
+
+
+                    <input type="radio" id="Yellow" name="color">
+                    <label for="blue">Blue</label><br>
+
+                </fieldset>
+            </form>
+
+
+            <p></p>
+            <label for="dog-breed">Choose a breed of dog</label>
+            <select id="dog-breed">
+                <optgroup label="small dogs">
+                    <option>Chihuahua</option>
+                    <option>Shih Tzu</option>
+                    <option>Toy Poodle</option>
+                </optgroup>
+                <optgroup label="Big Dogs">
+                    <option>Golden Retriever</option>
+                    <option>Samoyed</option>
+                    <option>Husky</option>
+                </optgroup>
+            </select>
+
+
+
+
         </section>
 
         <h3>About this page</h3>
