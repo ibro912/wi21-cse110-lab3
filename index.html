@@ -5,14 +5,14 @@
         <meta charset="utf-8"> 
 
     </head>
-    <nav class="things">
-        <ol>
-            <li class="things"><a href="#">Thing 1</a></li>
-            <li class="things"><a href="#">Thing 2</a></li>
-            <li class="things"><a href="#">Thing 3</a></li>
-        </ol>
-    </nav>
     <body>
+        <nav class="things">
+            <ol>
+                <li class="things"><a href="#">Thing 1</a></li>
+                <li class="things"><a href="#">Thing 2</a></li>
+                <li class="things"><a href="#">Thing 3</a></li>
+            </ol>
+        </nav>
         <header>Github Through HTML</header>
         <h1>Favorite Language</h1>
         <main>
@@ -121,9 +121,9 @@
                 <div class="form-example">
                     <label for="today">Enter today's date</label>
                     <input type="date" name="today's date" id="today">
-                </div class="form-example">
+                </div>
                 <div class="form-example">
-                    <input type="checkbox" id="Iunderstand" name="I understand">
+                    <input type="checkbox" id="checkThisBox" name="I understand">
                     <label for="checkThisBox">Please check this box</label  >
                 </div>
                 <div class="form-example">
@@ -174,7 +174,7 @@
                         <label for="red">Red</label><br>
 
 
-                        <input type="radio" id="Yellow" name="color">
+                        <input type="radio" id="yellow" name="color">
                         <label for="yellow">Yellow</label><br>
 
                     </fieldset>
@@ -205,15 +205,15 @@
             <h2>Some Table stuff</h2>
 
             <table>
+                <caption>Classes I have each day of the week</caption>
+                <colgroup>
+                    <col span="6" class="days">
+                </colgroup>
                 <thead>
                     <tr>
                         <th>Table of classes</th>
                     </tr>
                 </thead>
-                <caption>Classes I have each day of the week</caption>
-                <colgroup>
-                    <col span="6" class="days">
-                </colgroup>
                 <tr>
                     <td> </td>
                     <th scope="col">Monday</th>
