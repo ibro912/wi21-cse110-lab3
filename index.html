@@ -5,6 +5,13 @@
         <meta charset="utf-8"> 
 
     </head>
+    <nav class="things">
+        <ol>
+            <li class="things"><a href="#">Thing 1</a></li>
+            <li class="things"><a href="#">Thing 2</a></li>
+            <li class="things"><a href="#">Thing 3</a></li>
+        </ol>
+    </nav>
     <body>
         <header>Github Through HTML</header>
         <h1>Favorite Language</h1>
@@ -114,83 +121,136 @@
                 <div class="form-example">
                     <label for="date">Enter today's date</label>
                     <input type="date" name="today's date" id="today">
-                </div>
-                <div>
+                </div class="form-example">
+                <div class="form-example">
                     <input type="checkbox" id="I understand" name="I understand">
                     <label for="checkbox">Please check this box</label  >
                 </div>
-                <div>
+                <div class="form-example">
                     <label for="anyColor">Choose a color:</label>
                     <input type="color" id="anyColor" name="anyColor">
                 </div>
-                <div>
+                <div class="form-example">
                     <input class="RandomButton" type="button" value="press here for nothing">
                 </div>
-                <div>
+                <div class="form-example">
                     <label for="favNumber">Enter your favorite number</label>
                     <input type="number" id="favNumber" name="favorite number">
                 </div>
-                <div>
+                <div class="form-example">
                     <label for="password">Enter text, will not be shown(like a password)</label>
                     <input type="password" id="password" name="password">
                 </div>
-                <div>
+                <div class="form-example">
                     <label for="feeling">How full do you want to make this?</label>
                     <input type="range" id="feeling" name="feeling" min="0" max="10">
                 </div>
-                <div>
+                <div class="form-example">
                     <label for="sport">Choose a sport</label>
                     <input list="sports" type="text" id="sport" name="sport"/>
-                <datalist id="sports">
-                    <option value="Basketball">
-                    <option value="Baseball">
-                    <option value="Soccer">
-                    <option value="FootBall">
-                    <option value="Tennis">
-                    <option value="Golf">
-                </datalist>  
+                    <datalist id="sports">
+                        <option value="Basketball">
+                        <option value="Baseball">
+                        <option value="Soccer">
+                        <option value="FootBall">
+                        <option value="Tennis">
+                        <option value="Golf">
+                    </datalist>  
                 </div>
-                <div>
+                <div class="form-example">
                     <label for="story">Tell a story:</label>
                     <textarea id="story" name="story">
                         Enter text here...
                     </textarea>
                 </div>
                 <div class="form-example">
+                    <fieldset>
+                        <legend>Choose your favorite color of these three</legend>
+
+                        <input type="radio" id="blue" name="color">
+                        <label for="blue">Blue</label><br>
+
+                        <input type="radio" id="red" name="color">
+                        <label for="red">Red</label><br>
+
+
+                        <input type="radio" id="Yellow" name="color">
+                        <label for="yellow">yellow</label><br>
+
+                    </fieldset>
+                </div>
+                <div class="form-example">
+                    <label for="dog-breed">Choose a breed of dog</label>
+                    <select id="dog-breed">
+                        <optgroup label="small dogs">
+                            <option>Chihuahua</option>
+                            <option>Shih Tzu</option>
+                            <option>Toy Poodle</option>
+                        </optgroup>
+                        <optgroup label="Big Dogs">
+                            <option>Golden Retriever</option>
+                            <option>Samoyed</option>
+                            <option>Husky</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="form-example">
                     <input type="submit" value="Enter">
                 </div>
-
-                <fieldset>
-                    <legend>Choose your favorite color of these three</legend>
-
-                    <input type="radio" id="blue" name="color">
-                    <label for="blue">Blue</label><br>
-
-                    <input type="radio" id="red" name="color">
-                    <label for="red">Red</label><br>
-
-
-                    <input type="radio" id="Yellow" name="color">
-                    <label for="yellow">yellow</label><br>
-
-                </fieldset>
             </form>
 
 
-            <p></p>
-            <label for="dog-breed">Choose a breed of dog</label>
-            <select id="dog-breed">
-                <optgroup label="small dogs">
-                    <option>Chihuahua</option>
-                    <option>Shih Tzu</option>
-                    <option>Toy Poodle</option>
-                </optgroup>
-                <optgroup label="Big Dogs">
-                    <option>Golden Retriever</option>
-                    <option>Samoyed</option>
-                    <option>Husky</option>
-                </optgroup>
-            </select>
+            <br>
+
+            <h2>Some Table stuff</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Table of classes</th>
+                    </tr>
+                </thead>
+                <caption>Classes I have each day of the week</caption>
+                <colgroup>
+                    <col span="6" class="days">
+                </colgroup>
+                <tr>
+                    <td> </td>
+                    <th scope="col">Monday</th>
+                    <th scope="col">Tuesday</th>
+                    <th scope="col">Wednesday</th>
+                    <th scope="col">Thursday</th>
+                    <th scope="col">Friday</th>
+                </tr>
+                <tr>
+                    <th scope="row">Classes</th>
+                    <td>MATH 183</td>
+                    <td>CSE 110</td>
+                    <td>MATH 183</td>
+                    <td> </td>
+                    <td>MATH 183</td>
+                </tr>
+                <tr>
+                    <th scope="row">Classes</th>
+                    <td>CSE 110</td>
+                    <td>PSYC 104</td>
+                    <td>CSE 110</td>
+                    <td> </td>
+                    <td>CSE 110</td>
+                </tr>
+                <tr>
+                    <th scope="row">Classes</th>
+                    <td>CSE 101</td>
+                    <td> </td>
+                    <td>CSE 101</td>
+                    <td> </td>
+                    <td>CSE 101</td>
+                </tr>
+
+
+
+            </table>
+            
 
 
 
