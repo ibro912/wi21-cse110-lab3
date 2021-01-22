@@ -1,6 +1,18 @@
+@font-face
+{
+    font-family: 'Renogare';
+    src: url(https://dl.dafont.com/dl/?f=renogare);
+}
+
+*
+{
+    font-family: 'Renogare';
+}
+
+/* This is an example of changing the text in paragraphs */
 p
 {
-    color: red;
+    color: black;
     width: 500px;
     border: 1px solid black;
 }
