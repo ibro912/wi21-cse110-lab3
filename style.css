@@ -12,9 +12,9 @@
 /* This is an example of changing the text in paragraphs */
 p
 {
-    color: black;
+    color: hsl(1, 100%, 0%);
     width: 500px;
-    border: 1px solid black;
+    border: 1px solid #000;
 }
 
 h1
@@ -28,11 +28,56 @@ h2
     color: #8A2BE2;
 }
 
+ul
+{
+    width: 300px;
+    border: 15px solid black;
+    padding: 50px, 50px, 50px, 50px;
+    margin: 20px, 20px, 20px, 20px;
+}
+
+span.command
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
 .form-example
 {
     background-color: hsla(169, 96%, 50%, 0.31);
     border-style: outset;
-    border-color: red;
+    border-color: rgb(0, 255, 255);
     border-width: 3px;
     border-radius: 5px;
+}
+
+i
+{
+    font-size:0.75em;
+}
+
+em
+{
+    font-size:3em;
+}
+
+strong
+{
+    font-size:2em;
+}
+
+a:active
+{
+    color: yellow;
+}
+
+a:hover
+{
+    color:indigo;
 }
