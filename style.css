@@ -16,3 +16,8 @@ p
     width: 500px;
     border: 1px solid black;
 }
+
+h1
+{
+    text-decoration: underline;
+}
