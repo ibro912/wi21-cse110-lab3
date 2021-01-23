@@ -21,11 +21,11 @@ body
     background-color:skyblue;
 }
 
-@media screen and (min-width: 1080px)
+@media screen and (min-width: 500px)
 {
     body
     {
-        background-color:violet;
+        background-color:lightgreen;
     }
 }
 
