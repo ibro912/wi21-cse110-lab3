@@ -14,7 +14,31 @@ p
 {
     color: hsl(1, 100%, 0%);
     width: 500px;
-    border: 1px solid #000;
+}
+
+div, p
+{
+    border: 1px solid blue;
+}
+
+p a
+{
+    color: red;
+}
+
+figure > figcaption
+{
+    background-color: turquoise;
+}
+
+p ~ ul
+{
+    background: gray;
+}
+
+hr + p
+{
+    border: 2px solid gray;
 }
 
 h1
@@ -36,8 +60,30 @@ ul
     margin: 20px, 20px, 20px, 20px;
 }
 
+li
+{
+    display:inline;
+    max-width: 50%;
+    min-width: 10%;
+}
+
+#name
+{
+    position:sticky;
+}
+table
+{
+    position:fixed;
+}
+
+a[link]
+{
+    background-color: lightblue;
+}
+
 span.command
 {
+    display:block;
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 15px;
@@ -72,12 +118,13 @@ strong
     font-size:2em;
 }
 
+a:hover
+{
+    color:indigo;
+}
+
 a:active
 {
     color: yellow;
 }
 
-a:hover
-{
-    color:indigo;
-}
