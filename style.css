@@ -16,7 +16,7 @@ p
     width: 500px;
 }
 
-@media screen and (max-width: 992px)
+@media screen and (min-width: 480px)
 {
     body
     {
