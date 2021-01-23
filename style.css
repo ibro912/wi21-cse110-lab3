@@ -16,6 +16,11 @@ p
     width: 500px;
 }
 
+body
+{
+    background-color:skyblue;
+}
+
 @media screen and (min-width: 480px)
 {
     body
